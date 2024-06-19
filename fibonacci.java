@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*
+nth fibonacci number= ( Math.pow((0.5+Math.sqrt(5)/2),n) - Math.pow((0.5-Math.sqrt(5)/2),n) ) /Math.sqrt(5)
+Here, 0.5+Math.sqrt(5)/2 = 1.6180 which is also known as Golden Ratio of Mathematics.
+*/
+
 public class fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
